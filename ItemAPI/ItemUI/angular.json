@@ -3,18 +3,20 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ItemCatalogApp": {
+    "ItemUI": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
           "inlineStyle": true,
-          "skipTests": true
+          "skipTests": true,
+          "standalone": false
         },
         "@schematics/angular:class": {
           "skipTests": true
         },
         "@schematics/angular:directive": {
-          "skipTests": true
+          "skipTests": true,
+          "standalone": false
         },
         "@schematics/angular:guard": {
           "skipTests": true
@@ -23,7 +25,8 @@
           "skipTests": true
         },
         "@schematics/angular:pipe": {
-          "skipTests": true
+          "skipTests": true,
+          "standalone": false
         },
         "@schematics/angular:resolver": {
           "skipTests": true
@@ -39,7 +42,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/item-catalog-app",
+            "outputPath": "dist/item-ui",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -88,10 +91,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ItemCatalogApp:build:production"
+              "buildTarget": "ItemUI:build:production"
             },
             "development": {
-              "buildTarget": "ItemCatalogApp:build:development"
+              "buildTarget": "ItemUI:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,7 +102,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ItemCatalogApp:build"
+            "buildTarget": "ItemUI:build"
           }
         },
         "test": {
