@@ -24,4 +24,8 @@ export class ItemService {
         }
       });
   }
+
+  saveItem(){
+   return this.http.post(this.url, this.formData);
+  }
 }
