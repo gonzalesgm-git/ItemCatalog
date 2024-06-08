@@ -10,7 +10,8 @@
     <div class="col-6">
         <ul class="list-group">
             <li *ngFor="let item of itemService.list" class="list-group-item d-flex justify-content-between align-items-start mb-2 border px-4 py-3 rounded-3">
-                <div class="flex-grow-1 mouse-hover">
+                <div class="flex-grow-1 mouse-hover"
+                    (click)="populateForm(item)">
                     <div class="fw-bold">{{item.name}}</div>
                     <div>
                         <span>Price: {{item.quantity}} </span>   

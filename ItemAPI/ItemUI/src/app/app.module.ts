@@ -7,6 +7,8 @@ import { ItemDetailsComponent } from './item-details/item-details.component';
 import { ItemDetailFormComponent } from './item-details/item-detail-form/item-detail-form.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
+    BrowserAnimationsModule, // required animations module
+    ToastrModule.forRoot(), // ToastrModule added
     
   ],
   providers: [

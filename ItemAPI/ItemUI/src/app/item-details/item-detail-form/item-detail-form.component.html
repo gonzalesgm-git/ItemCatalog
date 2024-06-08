@@ -1,4 +1,5 @@
-<form #form="ngForm" (submit)="onSubmit(form)">
+<form #form="ngForm" (submit)="onSubmit(form)"
+    [class.submitted]="itemService.formSubmitted" novalidate>
     <input type="hidden" name="id" [value]="itemService.formData.id"/>
     <div class="mb-3">
         <label>Name</label>
@@ -6,7 +7,8 @@
             class="form-control form-control-lg"
             #name="ngModel"
             name="name"
-            [(ngModel)]="itemService.formData.name"/>
+            [(ngModel)]="itemService.formData.name"
+            required/>
 
      
         <div class="row">
@@ -16,7 +18,8 @@
                 class="form-control form-control-lg"
                 #name="ngModel"
                 name="quantity"
-                [(ngModel)]="itemService.formData.quantity"/>
+                [(ngModel)]="itemService.formData.quantity"
+                required/>
             </div>
             <div class="mb-3 col-6">
                 <label>Price</label>
@@ -24,7 +27,8 @@
                 class="form-control form-control-lg"
                 #name="ngModel"
                 name="price"
-                [(ngModel)]="itemService.formData.price"/>
+                [(ngModel)]="itemService.formData.price"
+                required/>
             </div>
         </div>
         
@@ -33,7 +37,8 @@
                class="form-control form-control-lg"
                #name="ngModel"
                name="manufacturer"
-               [(ngModel)]="itemService.formData.manufacturer"/>       
+               [(ngModel)]="itemService.formData.manufacturer"
+               required/>       
     </div>
     <div class="d-grid">
         <button class="btn btn-lg btn-success" type="submit">

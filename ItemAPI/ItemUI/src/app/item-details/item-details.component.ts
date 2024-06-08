@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ItemService } from '../shared/item.service';
+import { Item } from '../shared/item.model';
 
 @Component({
   selector: 'app-item-details',
@@ -14,6 +15,10 @@ export class ItemDetailsComponent implements OnInit {
 
   ngOnInit(): void {
     this.itemService.refreshList();
+  }
+
+  populateForm(selectedItem: Item){
+    this.itemService.formData = Object.assign({}, selectedItem);
   }
 
 }
