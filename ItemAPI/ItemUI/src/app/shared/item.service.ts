@@ -4,6 +4,8 @@ import { environment } from '../../environments/environment';
 import { Item } from './item.model';
 import { NgForm } from '@angular/forms';
 
+import { Observable } from 'rxjs/internal/Observable';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -27,14 +29,21 @@ export class ItemService {
       });
   }
 
-  saveItem(){
+  saveItem(): Observable<any>{
    return this.http.post(this.url, this.formData);
   }
 
-  updateItem(){
+  updateItem(): Observable<any>{
     const url = `${this.url}/${this.formData.id}`;
     return this.http.put(url, this.formData);
   }
+
+  
+  deleteItem(item: Item): Observable<any>{
+    const url = `${this.url}/${item.id}`;
+    return this.http.delete(url);
+  }
+
 
   resetForm(form: NgForm){
     form.form.reset();
