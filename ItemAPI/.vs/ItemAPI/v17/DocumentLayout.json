@@ -1,25 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\_Projects\\ItemAPI\\",
+  "WorkspaceRootPath": "C:\\_Projects\\ItemCatalog\\ItemAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemapi\\itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|solutionrelative:itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|solutionrelative:itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemapi\\itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|solutionrelative:itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemapi\\itemapi\\models\\itemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|solutionrelative:itemapi\\models\\itemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemapi\\itemapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|solutionrelative:itemapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemapi\\itemapi\\itemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Migrations\\20240608142755_First-Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ItemAPI\\Migrations\\20240608142755_First-Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\models\\itemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|solutionrelative:itemapi\\models\\itemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|solutionrelative:itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|solutionrelative:itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\itemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\ItemAPI.csproj|solutionrelative:itemapi\\itemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,37 +46,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\_Projects\\ItemAPI\\ItemAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ItemAPI\\appsettings.json",
-              "ToolTip": "C:\\_Projects\\ItemAPI\\ItemAPI\\appsettings.json",
-              "RelativeToolTip": "ItemAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-08T13:52:22.978Z",
+              "DocumentIndex": 0,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "ItemAPI\\Controllers\\ItemController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:32:59.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "20240608142755_First-Migration.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Migrations\\20240608142755_First-Migration.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Migrations\\20240608142755_First-Migration.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Migrations\\20240608142755_First-Migration.cs",
+              "RelativeToolTip": "ItemAPI\\Migrations\\20240608142755_First-Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:27:55.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ItemAPI\\appsettings.json",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\appsettings.json",
+              "RelativeToolTip": "ItemAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-08T13:52:22.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemAPI\\ItemAPI\\Program.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
               "RelativeDocumentMoniker": "ItemAPI\\Program.cs",
-              "ToolTip": "C:\\_Projects\\ItemAPI\\ItemAPI\\Program.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
               "RelativeToolTip": "ItemAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T13:50:32.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ItemContext.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemAPI\\ItemAPI\\Models\\ItemContext.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\ItemContext.cs",
               "RelativeDocumentMoniker": "ItemAPI\\Models\\ItemContext.cs",
-              "ToolTip": "C:\\_Projects\\ItemAPI\\ItemAPI\\Models\\ItemContext.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\ItemContext.cs",
               "RelativeToolTip": "ItemAPI\\Models\\ItemContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,26 +110,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemAPI",
-              "DocumentMoniker": "C:\\_Projects\\ItemAPI\\ItemAPI\\ItemAPI.csproj",
+              "DocumentIndex": 6,
+              "Title": "ItemAPI.csproj",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\ItemAPI.csproj",
               "RelativeDocumentMoniker": "ItemAPI\\ItemAPI.csproj",
-              "ToolTip": "C:\\_Projects\\ItemAPI\\ItemAPI\\ItemAPI.csproj",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\ItemAPI.csproj",
               "RelativeToolTip": "ItemAPI\\ItemAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-08T13:33:58.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T13:33:58.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Item.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemAPI\\ItemAPI\\Models\\Item.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\Item.cs",
               "RelativeDocumentMoniker": "ItemAPI\\Models\\Item.cs",
-              "ToolTip": "C:\\_Projects\\ItemAPI\\ItemAPI\\Models\\Item.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\Item.cs",
               "RelativeToolTip": "ItemAPI\\Models\\Item.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T13:25:41.228Z",
               "EditorCaption": ""

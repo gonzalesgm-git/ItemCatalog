@@ -14,7 +14,7 @@ namespace ItemAPI.Models
         [Column(TypeName = "int")]
         public int Quantity { get; set; } = 0;
 
-        [Column(TypeName = "double")]
+        [Column(TypeName = "numeric(10,2)")]
         public double Price { get; set; } = 0.0;
 
         [Column(TypeName = "nvarchar(100)")]
