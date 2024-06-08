@@ -1,1 +1,37 @@
-<p>item-detail-form works!</p>
+<form>
+    <input type="hidden" name="id" [value]="itemService.formData.id"/>
+    <div class="mb-3">
+        <label>Name</label>
+        <input type="text" 
+            class="form-control form-control-lg"
+            #name="ngModel"
+            name="name"
+            [(ngModel)]="itemService.formData.name"/>
+
+        <label>Qty</label>
+        <input type="text" 
+            class="form-control form-control-lg"
+            #name="ngModel"
+            name="quantity"
+            [(ngModel)]="itemService.formData.quantity"/>
+
+        <label>Price</label>
+        <input type="text" 
+            class="form-control form-control-lg"
+            #name="ngModel"
+            name="price"
+            [(ngModel)]="itemService.formData.price"/>
+
+        <label>Manufacturer</label>
+        <input type="text" 
+               class="form-control form-control-lg"
+               #name="ngModel"
+               name="manufacturer"
+               [(ngModel)]="itemService.formData.manufacturer"/>       
+    </div>
+    <div class="d-grid">
+        <button class="btn btn-lg btn-success" type="submit">
+            Submit
+        </button>
+    </div>
+</form>

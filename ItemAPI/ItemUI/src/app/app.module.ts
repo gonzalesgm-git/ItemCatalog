@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ItemDetailsComponent } from './item-details/item-details.component';
 import { ItemDetailFormComponent } from './item-details/item-detail-form/item-detail-form.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -15,8 +17,10 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    
   ],
   providers: [
     provideClientHydration()

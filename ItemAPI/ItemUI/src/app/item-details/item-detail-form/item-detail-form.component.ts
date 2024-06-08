@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ItemService } from '../../shared/item.service';
 
 @Component({
   selector: 'app-item-detail-form',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class ItemDetailFormComponent {
 
+  constructor(public itemService: ItemService){
+
+  }
 }
