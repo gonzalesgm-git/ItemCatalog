@@ -18,6 +18,7 @@ builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("DevConnection");
 builder.Services.AddItemApplicationMediatR();
+builder.Services.AddRepositories();
 builder.Services.AddPersistence(connectionString);
 
 var app = builder.Build();

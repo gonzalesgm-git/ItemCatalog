@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Item.Infrastructure.Repositories;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +8,16 @@ using System.Threading.Tasks;
 
 namespace Item.Application.Queries
 {
-    public class GetItemsQueryHandler : IRequestHandler<GetItemsQuery, List<Domain.Models.Item>>
+    public class GetItemsQueryHandler : IRequestHandler<GetItemsQuery, IEnumerable<Domain.Models.Item>>
     {
-        public Task<List<Domain.Models.Item>> Handle(GetItemsQuery request, CancellationToken cancellationToken)
+        private readonly IItemRepository _itemRepository;
+
+        public GetItemsQueryHandler(IItemRepository itemRepository) { 
+            _itemRepository = itemRepository;
+        }
+        public async Task<IEnumerable<Domain.Models.Item>> Handle(GetItemsQuery request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return await _itemRepository.GetItemsAsync();
         }
     }
 }

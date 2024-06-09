@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 
 namespace Item.Application.Queries
 {
-    public class GetItemsQuery: IRequest<List<Item.Domain.Models.Item>> { }
+    public class GetItemsQuery: IRequest<IEnumerable<Item.Domain.Models.Item>> { }
    
 }
