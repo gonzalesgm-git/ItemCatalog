@@ -1,4 +1,4 @@
-using ItemAPI.Models;
+
 using Microsoft.EntityFrameworkCore;
 using Item.Application;
 using Item.Infrastructure;
@@ -33,10 +33,6 @@ builder.Services.AddAuthentication(opt => {
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-//builder.Services.AddDbContext<ItemContext>(options =>
-//    options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))
-//);
 
 var connectionString = builder.Configuration.GetConnectionString("DevConnection");
 builder.Services.AddItemApplicationMediatR();

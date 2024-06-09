@@ -19,7 +19,6 @@ namespace Item.API.Controllers
                 return BadRequest("Invalid client request");
             }
 
-
             if (user.UserName == "gerald" && user.Password == "iamtheonewhoknocks")
             {
                 var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("2DD94BDC-3A5C-4ADE-8730-BDC3DC361AC4"));

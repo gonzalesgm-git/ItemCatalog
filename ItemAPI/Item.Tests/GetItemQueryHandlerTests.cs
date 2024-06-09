@@ -1,11 +1,6 @@
 ﻿using Item.Application.Queries;
 using Item.Infrastructure.Repositories;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Item.Tests

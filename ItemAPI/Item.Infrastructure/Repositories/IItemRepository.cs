@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Item.Infrastructure.Repositories
+﻿namespace Item.Infrastructure.Repositories
 {
     public interface IItemRepository
     {
