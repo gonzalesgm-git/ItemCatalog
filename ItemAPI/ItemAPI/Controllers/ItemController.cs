@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ItemAPI.Models;
-using MediatR;
+﻿using Item.Application.Commands;
 using Item.Application.Queries;
-using Item.Application.Commands;
+using MediatR;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 
 namespace ItemAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ItemController : ControllerBase
@@ -32,20 +27,7 @@ namespace ItemAPI.Controllers
             return Ok(items);
         }
 
-        //// GET: api/Items/5
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Item.Domain.Models.Item>> GetItem(int id)
-        //{
-        //    var item = await _context.Items.FindAsync(id);
-
-        //    if (item == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return item;
-        //}
-
+       
         //// PUT: api/Items/5
         //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -74,7 +56,7 @@ namespace ItemAPI.Controllers
         public async Task<IActionResult> DeleteItem(int id)
         {
             
-            var res = _sender.Send(new DeleteItemCommand(id));
+            var res = await _sender.Send(new DeleteItemCommand(id));
             return NoContent();
         }
 
