@@ -1,5 +1,6 @@
 using ItemAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using Item.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ItemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))
 );
+
+builder.Services.AddItemApplicationMediatR();
 
 var app = builder.Build();
 

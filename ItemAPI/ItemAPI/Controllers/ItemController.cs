@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ItemAPI.Models;
 
+
 namespace ItemAPI.Controllers
 {
     [Route("api/[controller]")]
@@ -22,14 +23,14 @@ namespace ItemAPI.Controllers
 
         // GET: api/Items
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Item>>> GetItems()
+        public async Task<ActionResult<IEnumerable<Item.Domain.Models.Item>>> GetItems()
         {
             return await _context.Items.ToListAsync();
         }
 
         // GET: api/Items/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Item>> GetItem(int id)
+        public async Task<ActionResult<Item.Domain.Models.Item>> GetItem(int id)
         {
             var item = await _context.Items.FindAsync(id);
 
@@ -44,7 +45,7 @@ namespace ItemAPI.Controllers
         // PUT: api/Items/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutItem(int id, Item item)
+        public async Task<IActionResult> PutItem(int id, Item.Domain.Models.Item item)
         {
             if (id != item.Id)
             {
@@ -75,7 +76,7 @@ namespace ItemAPI.Controllers
         // POST: api/Items
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Item>> PostItem(Item item)
+        public async Task<ActionResult<Item.Domain.Models.Item>> PostItem(Item.Domain.Models.Item item)
         {
             _context.Items.Add(item);
             await _context.SaveChangesAsync();

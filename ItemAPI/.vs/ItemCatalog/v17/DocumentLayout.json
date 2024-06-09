@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\_Projects\\ItemCatalog\\ItemAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\models\\itemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\models\\itemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BAC65E6-3056-4E12-8DC1-FA15877C438A}|Item.Domain\\Item.Domain.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.domain\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BAC65E6-3056-4E12-8DC1-FA15877C438A}|Item.Domain\\Item.Domain.csproj|solutionrelative:item.domain\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\queries\\getitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|solutionrelative:item.application\\queries\\getitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|solutionrelative:item.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\item.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\item.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\migrations\\20240608142755_first-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\migrations\\20240608142755_first-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "ItemAPI\\Controllers\\ItemController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:32:59.108Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Domain\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Item.Domain\\Models\\Item.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Domain\\Models\\Item.cs",
+              "RelativeToolTip": "Item.Domain\\Models\\Item.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T01:46:34.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetItemsQuery.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Queries\\GetItemsQuery.cs",
+              "RelativeDocumentMoniker": "Item.Application\\Queries\\GetItemsQuery.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Queries\\GetItemsQuery.cs",
+              "RelativeToolTip": "Item.Application\\Queries\\GetItemsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T01:44:49.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Item.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Item.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T01:33:11.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Program.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
+              "RelativeToolTip": "ItemAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:50:32.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\test.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Models\\test.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\test.cs",
+              "RelativeToolTip": "ItemAPI\\Models\\test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:25:41.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemContext.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\ItemContext.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Models\\ItemContext.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\ItemContext.cs",
+              "RelativeToolTip": "ItemAPI\\Models\\ItemContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:41:19.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240608142755_First-Migration.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Migrations\\20240608142755_First-Migration.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Migrations\\20240608142755_First-Migration.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Migrations\\20240608142755_First-Migration.cs",
+              "RelativeToolTip": "ItemAPI\\Migrations\\20240608142755_First-Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:27:55.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ItemAPI\\appsettings.json",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\appsettings.json",
+              "RelativeToolTip": "ItemAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-08T13:52:22.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Item.API.csproj",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Item.API.csproj",
+              "RelativeDocumentMoniker": "ItemAPI\\Item.API.csproj",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Item.API.csproj",
+              "RelativeToolTip": "ItemAPI\\Item.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-08T13:33:58.257Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

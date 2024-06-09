@@ -4,3 +4,9 @@ ItemAPI/ItemAPI/bin/Debug/
 ItemAPI/ItemAPI/obj/ItemAPI.csproj.nuget.dgspec.json
 ItemAPI/ItemAPI/obj/
 ItemAPI/.vs/ItemAPI/v17/DocumentLayout.json
+ItemAPI/.vs/ItemCatalog/FileContentIndex/
+ItemAPI/Item.Application/obj/
+ItemAPI/Item.Domain/bin/
+ItemAPI/Item.Domain/obj/
+ItemAPI/Item.Infrastructure/obj/
+ItemAPI/Item.Application/bin/

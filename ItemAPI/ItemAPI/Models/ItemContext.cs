@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Item.Domain.Models;
 
 namespace ItemAPI.Models
 {
@@ -8,6 +9,6 @@ namespace ItemAPI.Models
         {
         }
 
-        public DbSet<Item> Items { get; set; }
+        public DbSet<Item.Domain.Models.Item> Items { get; set; }
     }
 }
