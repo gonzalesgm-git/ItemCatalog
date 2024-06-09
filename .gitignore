@@ -11,3 +11,5 @@ ItemAPI/Item.Domain/obj/
 ItemAPI/Item.Infrastructure/obj/
 ItemAPI/Item.Application/bin/
 ItemAPI/Item.Infrastructure/bin/
+ItemAPI/Item.Tests/bin/
+ItemAPI/Item.Tests/obj/
