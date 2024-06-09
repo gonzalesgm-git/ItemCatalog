@@ -25,8 +25,8 @@ export class AuthService {
   
     const loginUrl = `${this.auth_url}/auth/login`;
     return this.http.post(loginUrl, { username, password }, httpOptions)
-      .pipe(tap((result) => {
-        this.token = result;
+      .pipe(tap((result:any) => {
+        this.token = result.token;
       }));
   }
 

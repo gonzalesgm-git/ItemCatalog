@@ -11,16 +11,19 @@ export class HttpRequestInterceptor implements HttpInterceptor {
   }
  
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
+    const headersConfig: Record<string, any> = {};
 
     const authService = this.injector.get(AuthService);
     const isLoggedIn = authService?.token;
-      const isApiUrl = request.url.startsWith(environment.apiBaseUrl);
-      if (isApiUrl && isLoggedIn) {
-          request = request.clone({
-            setHeaders: { Authorization: `Bearer ${authService.token}` }
-          });
-      }
 
-    return next.handle(request);
+    const isApiUrl = request.url.startsWith(environment.apiBaseUrl);
+    if (isApiUrl && isLoggedIn) {
+      headersConfig['Authorization'] = `Bearer ${authService.token}`;
+    }
+
+    headersConfig['Access-Control-Request-Headers'] = 'Cache-Control, Content-Language';
+    const req = request.clone({ setHeaders: headersConfig });
+
+    return next.handle(req);
   }
 }

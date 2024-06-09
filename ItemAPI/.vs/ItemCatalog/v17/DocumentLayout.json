@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\_Projects\\ItemCatalog\\ItemAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\commands\\deleteitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|solutionrelative:item.application\\commands\\deleteitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -118,24 +118,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "ItemAPI\\Controllers\\ItemController.cs",
               "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\ItemController.cs",
               "RelativeToolTip": "ItemAPI\\Controllers\\ItemController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAgwDoAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T14:32:59.108Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DeleteItemCommand.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\DeleteItemCommand.cs",
               "RelativeDocumentMoniker": "Item.Application\\Commands\\DeleteItemCommand.cs",
@@ -147,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DeleteItemCommandHandler.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\DeleteItemCommandHandler.cs",
               "RelativeDocumentMoniker": "Item.Application\\Commands\\DeleteItemCommandHandler.cs",
@@ -159,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Item.Infrastructure\\DependencyInjection.cs",
@@ -171,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ItemDbContext.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\ItemDbContext.cs",
               "RelativeDocumentMoniker": "Item.Infrastructure\\ItemDbContext.cs",
@@ -183,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ItemAPI\\Controllers\\AuthController.cs",

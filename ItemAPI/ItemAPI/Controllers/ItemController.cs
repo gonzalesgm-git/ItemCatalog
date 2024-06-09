@@ -7,7 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ItemAPI.Controllers
 {
-  
+
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ItemController : ControllerBase
