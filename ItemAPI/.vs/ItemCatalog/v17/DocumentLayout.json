@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\_Projects\\ItemCatalog\\ItemAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\migrations\\20240609062032_runmigrationininfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|solutionrelative:item.infrastructure\\migrations\\20240609062032_runmigrationininfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|solutionrelative:item.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\itemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|solutionrelative:item.infrastructure\\itemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\commands\\deleteitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|solutionrelative:item.application\\commands\\deleteitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\commands\\deleteitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|solutionrelative:item.application\\commands\\deleteitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E87AE82-B4F6-4E08-A3F7-BD84DAEF3817}|Item.Tests\\Item.Tests.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.tests\\getitemqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E87AE82-B4F6-4E08-A3F7-BD84DAEF3817}|Item.Tests\\Item.Tests.csproj|solutionrelative:item.tests\\getitemqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\commands\\saveitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|solutionrelative:item.application\\commands\\saveitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\migrations\\20240609062032_runmigrationininfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|solutionrelative:item.infrastructure\\migrations\\20240609062032_runmigrationininfrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\queries\\getitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,20 +59,12 @@
       "RelativeMoniker": "D:0:0:{6E87AE82-B4F6-4E08-A3F7-BD84DAEF3817}|Item.Tests\\Item.Tests.csproj|solutionrelative:item.tests\\mockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BAC65E6-3056-4E12-8DC1-FA15877C438A}|Item.Domain\\Item.Domain.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.domain\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BAC65E6-3056-4E12-8DC1-FA15877C438A}|Item.Domain\\Item.Domain.csproj|solutionrelative:item.domain\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BAC65E6-3056-4E12-8DC1-FA15877C438A}|Item.Domain\\Item.Domain.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.domain\\models\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BAC65E6-3056-4E12-8DC1-FA15877C438A}|Item.Domain\\Item.Domain.csproj|solutionrelative:item.domain\\models\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|solutionrelative:item.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{4BAC65E6-3056-4E12-8DC1-FA15877C438A}|Item.Domain\\Item.Domain.csproj|solutionrelative:item.domain\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\commands\\saveitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|solutionrelative:item.application\\commands\\saveitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|solutionrelative:item.infrastructure\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\itemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|solutionrelative:item.infrastructure\\itemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\commands\\updateitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,43 +122,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "ItemAPI\\Controllers\\ItemController.cs",
               "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\ItemController.cs",
               "RelativeToolTip": "ItemAPI\\Controllers\\ItemController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T14:32:59.108Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240609062032_RunMigrationInInfrastructure.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\Migrations\\20240609062032_RunMigrationInInfrastructure.cs",
-              "RelativeDocumentMoniker": "Item.Infrastructure\\Migrations\\20240609062032_RunMigrationInInfrastructure.cs",
-              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\Migrations\\20240609062032_RunMigrationInInfrastructure.cs",
-              "RelativeToolTip": "Item.Infrastructure\\Migrations\\20240609062032_RunMigrationInInfrastructure.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "DocumentIndex": 4,
+              "Title": "DeleteItemCommand.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\DeleteItemCommand.cs",
+              "RelativeDocumentMoniker": "Item.Application\\Commands\\DeleteItemCommand.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\DeleteItemCommand.cs",
+              "RelativeToolTip": "Item.Application\\Commands\\DeleteItemCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:20:33.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ItemAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ItemAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:18:14.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T04:43:53.657Z"
             },
             {
               "$type": "Document",
@@ -164,9 +153,45 @@
               "RelativeDocumentMoniker": "Item.Application\\Commands\\DeleteItemCommandHandler.cs",
               "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\DeleteItemCommandHandler.cs",
               "RelativeToolTip": "Item.Application\\Commands\\DeleteItemCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAA5AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T04:45:00.081Z",
+              "WhenOpened": "2024-06-09T04:45:00.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Item.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Item.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T02:11:10.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemDbContext.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\ItemDbContext.cs",
+              "RelativeDocumentMoniker": "Item.Infrastructure\\ItemDbContext.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\ItemDbContext.cs",
+              "RelativeToolTip": "Item.Infrastructure\\ItemDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T02:05:47.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ItemAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T05:18:14.266Z",
               "EditorCaption": ""
             },
             {
@@ -175,7 +200,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ItemAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ItemAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-09T06:43:21.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Program.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
+              "RelativeToolTip": "ItemAPI\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:50:32.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetItemQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Tests\\GetItemQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "Item.Tests\\GetItemQueryHandlerTests.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Tests\\GetItemQueryHandlerTests.cs",
+              "RelativeToolTip": "Item.Tests\\GetItemQueryHandlerTests.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAB4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T05:49:01.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SaveItemCommand.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\SaveItemCommand.cs",
+              "RelativeDocumentMoniker": "Item.Application\\Commands\\SaveItemCommand.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\SaveItemCommand.cs",
+              "RelativeToolTip": "Item.Application\\Commands\\SaveItemCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T03:13:25.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ItemAPI\\appsettings.json",
@@ -183,38 +256,23 @@
               "RelativeToolTip": "ItemAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-08T13:52:22.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T13:52:22.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeleteItemCommand.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\DeleteItemCommand.cs",
-              "RelativeDocumentMoniker": "Item.Application\\Commands\\DeleteItemCommand.cs",
-              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\DeleteItemCommand.cs",
-              "RelativeToolTip": "Item.Application\\Commands\\DeleteItemCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "20240609062032_RunMigrationInInfrastructure.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\Migrations\\20240609062032_RunMigrationInInfrastructure.cs",
+              "RelativeDocumentMoniker": "Item.Infrastructure\\Migrations\\20240609062032_RunMigrationInInfrastructure.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\Migrations\\20240609062032_RunMigrationInInfrastructure.cs",
+              "RelativeToolTip": "Item.Infrastructure\\Migrations\\20240609062032_RunMigrationInInfrastructure.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T04:43:53.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T06:20:33.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetItemQueryHandlerTests.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Tests\\GetItemQueryHandlerTests.cs",
-              "RelativeDocumentMoniker": "Item.Tests\\GetItemQueryHandlerTests.cs",
-              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Tests\\GetItemQueryHandlerTests.cs",
-              "RelativeToolTip": "Item.Tests\\GetItemQueryHandlerTests.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABIAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:49:01.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "MockData.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Tests\\MockData.cs",
               "RelativeDocumentMoniker": "Item.Tests\\MockData.cs",
@@ -222,12 +280,11 @@
               "RelativeToolTip": "Item.Tests\\MockData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:50:26.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T05:50:26.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "GetItemsQueryHandler.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Queries\\GetItemsQueryHandler.cs",
               "RelativeDocumentMoniker": "Item.Application\\Queries\\GetItemsQueryHandler.cs",
@@ -235,12 +292,11 @@
               "RelativeToolTip": "Item.Application\\Queries\\GetItemsQueryHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T01:55:04.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T01:55:04.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Domain\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "Item.Domain\\Models\\LoginModel.cs",
@@ -248,12 +304,11 @@
               "RelativeToolTip": "Item.Domain\\Models\\LoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:17:05.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T05:17:05.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "ItemRepository.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\Repositories\\ItemRepository.cs",
               "RelativeDocumentMoniker": "Item.Infrastructure\\Repositories\\ItemRepository.cs",
@@ -261,25 +316,11 @@
               "RelativeToolTip": "Item.Infrastructure\\Repositories\\ItemRepository.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAEwCoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T02:02:09.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T02:02:09.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ItemAPI\\Program.cs",
-              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
-              "RelativeToolTip": "ItemAPI\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:50:32.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "AuthenticatedResponse.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Domain\\Models\\AuthenticatedResponse.cs",
               "RelativeDocumentMoniker": "Item.Domain\\Models\\AuthenticatedResponse.cs",
@@ -287,12 +328,11 @@
               "RelativeToolTip": "Item.Domain\\Models\\AuthenticatedResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:17:31.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T05:17:31.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "UdpateItemCommandHandler.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\UdpateItemCommandHandler.cs",
               "RelativeDocumentMoniker": "Item.Application\\Commands\\UdpateItemCommandHandler.cs",
@@ -300,25 +340,11 @@
               "RelativeToolTip": "Item.Application\\Commands\\UdpateItemCommandHandler.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAgwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T04:04:18.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T04:04:18.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Item.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Item.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T02:11:10.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Domain\\Models\\Result.cs",
               "RelativeDocumentMoniker": "Item.Domain\\Models\\Result.cs",
@@ -326,25 +352,11 @@
               "RelativeToolTip": "Item.Domain\\Models\\Result.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T04:55:02.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T04:55:02.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ItemDbContext.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\ItemDbContext.cs",
-              "RelativeDocumentMoniker": "Item.Infrastructure\\ItemDbContext.cs",
-              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\ItemDbContext.cs",
-              "RelativeToolTip": "Item.Infrastructure\\ItemDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T02:05:47.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "IItemRepository.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\Repositories\\IItemRepository.cs",
               "RelativeDocumentMoniker": "Item.Infrastructure\\Repositories\\IItemRepository.cs",
@@ -352,25 +364,11 @@
               "RelativeToolTip": "Item.Infrastructure\\Repositories\\IItemRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T02:31:09.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T02:31:09.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SaveItemCommand.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\SaveItemCommand.cs",
-              "RelativeDocumentMoniker": "Item.Application\\Commands\\SaveItemCommand.cs",
-              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\SaveItemCommand.cs",
-              "RelativeToolTip": "Item.Application\\Commands\\SaveItemCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:13:25.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "UpdateItemCommand.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\UpdateItemCommand.cs",
               "RelativeDocumentMoniker": "Item.Application\\Commands\\UpdateItemCommand.cs",
@@ -378,12 +376,11 @@
               "RelativeToolTip": "Item.Application\\Commands\\UpdateItemCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T04:03:28.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T04:03:28.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "SaveItemCommandHandler.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Commands\\SaveItemCommandHandler.cs",
               "RelativeDocumentMoniker": "Item.Application\\Commands\\SaveItemCommandHandler.cs",
@@ -391,12 +388,11 @@
               "RelativeToolTip": "Item.Application\\Commands\\SaveItemCommandHandler.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAgwBQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:17:24.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T03:17:24.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "GetItemsQuery.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Queries\\GetItemsQuery.cs",
               "RelativeDocumentMoniker": "Item.Application\\Queries\\GetItemsQuery.cs",
@@ -404,12 +400,11 @@
               "RelativeToolTip": "Item.Application\\Queries\\GetItemsQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T01:44:49.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T01:44:49.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Item.Application\\DependencyInjection.cs",
@@ -417,12 +412,11 @@
               "RelativeToolTip": "Item.Application\\DependencyInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T01:33:11.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T01:33:11.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Domain\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Item.Domain\\Models\\Item.cs",
@@ -430,12 +424,11 @@
               "RelativeToolTip": "Item.Domain\\Models\\Item.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T01:46:34.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T01:46:34.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "test.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\test.cs",
               "RelativeDocumentMoniker": "ItemAPI\\Models\\test.cs",
@@ -443,12 +436,11 @@
               "RelativeToolTip": "ItemAPI\\Models\\test.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:25:41.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T13:25:41.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Item.API.csproj",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Item.API.csproj",
               "RelativeDocumentMoniker": "ItemAPI\\Item.API.csproj",
@@ -456,8 +448,7 @@
               "RelativeToolTip": "ItemAPI\\Item.API.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-08T13:33:58.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T13:33:58.257Z"
             }
           ]
         }

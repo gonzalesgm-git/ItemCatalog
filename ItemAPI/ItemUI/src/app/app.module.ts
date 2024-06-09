@@ -5,17 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ItemDetailsComponent } from './item-details/item-details.component';
 import { ItemDetailFormComponent } from './item-details/item-detail-form/item-detail-form.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { HttpRequestInterceptor } from './helpers/http.interceptor';
+import { LoginComponent } from './login/login/login.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemDetailsComponent,
-    ItemDetailFormComponent
+    ItemDetailFormComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,7 +31,8 @@ import { ToastrModule } from 'ngx-toastr';
     
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    { provide: HTTP_INTERCEPTORS, useClass: HttpRequestInterceptor, multi: true }
   ],
   bootstrap: [AppComponent]
 })

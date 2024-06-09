@@ -13,3 +13,4 @@ ItemAPI/Item.Application/bin/
 ItemAPI/Item.Infrastructure/bin/
 ItemAPI/Item.Tests/bin/
 ItemAPI/Item.Tests/obj/
+ItemAPI/.vs/
