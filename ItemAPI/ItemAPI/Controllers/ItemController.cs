@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using ItemAPI.Models;
 using MediatR;
 using Item.Application.Queries;
+using Item.Application.Commands;
 
 
 namespace ItemAPI.Controllers
@@ -47,65 +48,35 @@ namespace ItemAPI.Controllers
 
         //// PUT: api/Items/5
         //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutItem(int id, Item.Domain.Models.Item item)
-        //{
-        //    if (id != item.Id)
-        //    {
-        //        return BadRequest();
-        //    }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutItem(int id, Item.Domain.Models.Item item)
+        {
+            if (id != item.Id)
+            {
+                return BadRequest();
+            }
 
-        //    _context.Entry(item).State = EntityState.Modified;
-
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!ItemExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return NoContent();
-        //}
+            var res = await _sender.Send(new UpdateItemCommand(item));
+            return NoContent();
+        }
 
         //// POST: api/Items
         //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<ActionResult<Item.Domain.Models.Item>> PostItem(Item.Domain.Models.Item item)
-        //{
-        //    _context.Items.Add(item);
-        //    await _context.SaveChangesAsync();
-
-        //    return CreatedAtAction("GetItem", new { id = item.Id }, item);
-        //}
+        [HttpPost]
+        public async Task<ActionResult<Item.Domain.Models.Item>> PostItem(Item.Domain.Models.Item item)
+        {
+            var res = await _sender.Send(new SaveItemCommand(item));
+            return Ok(res);
+        }
 
         //// DELETE: api/Items/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteItem(int id)
-        //{
-        //    var item = await _context.Items.FindAsync(id);
-        //    if (item == null)
-        //    {
-        //        return NotFound();
-        //    }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteItem(int id)
+        {
+            
+            var res = _sender.Send(new DeleteItemCommand(id));
+            return NoContent();
+        }
 
-        //    _context.Items.Remove(item);
-        //    await _context.SaveChangesAsync();
-
-        //    return NoContent();
-        //}
-
-        //private bool ItemExists(int id)
-        //{
-        //    return _context.Items.Any(e => e.Id == id);
-        //}
     }
 }

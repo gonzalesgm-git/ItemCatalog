@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Item.Domain.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,17 +14,19 @@ namespace Item.Infrastructure.Repositories
         private readonly ItemDbContext _dbContext;
         public ItemRepository(ItemDbContext dbContext)
         {
-            _dbContext = dbContext; 
+            _dbContext = dbContext;
         }
 
-        public void DeleteItem(int id)
+        public async Task<bool> DeleteItemAsync(int id)
         {
-            throw new NotImplementedException();
+            var itemToDelete = GetItem(id);
+             _dbContext.Items.Remove(itemToDelete);
+            return await _dbContext.SaveChangesAsync() > 0;
         }
 
-        public Task<Domain.Models.Item> GetItemAsync(int id)
+        public Domain.Models.Item GetItem(int id)
         {
-            throw new NotImplementedException();
+            return  _dbContext.Items.Where(x => x.Id == id).First();
         }
 
         public async Task<IEnumerable<Domain.Models.Item>> GetItemsAsync()
@@ -31,14 +34,16 @@ namespace Item.Infrastructure.Repositories
             return await _dbContext.Items.ToListAsync();
         }
 
-        public Task<Domain.Models.Item> SaveitemAsync(Domain.Models.Item item)
+        public async Task<bool> SaveitemAsync(Domain.Models.Item item)
         {
-            throw new NotImplementedException();
+            await _dbContext.Items.AddAsync(item);
+            return await _dbContext.SaveChangesAsync() > 0;
         }
 
-        public void UpdateItem(Domain.Models.Item item)
+        public async Task<bool> UpdateItemAsync(Domain.Models.Item item)
         {
-            throw new NotImplementedException();
+            _dbContext.Items.Update(item);
+            return await _dbContext.SaveChangesAsync() > 0;
         }
     }
 }
