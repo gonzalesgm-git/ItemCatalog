@@ -10,3 +10,4 @@ ItemAPI/Item.Domain/bin/
 ItemAPI/Item.Domain/obj/
 ItemAPI/Item.Infrastructure/obj/
 ItemAPI/Item.Application/bin/
+ItemAPI/Item.Infrastructure/bin/

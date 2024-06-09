@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\_Projects\\ItemCatalog\\ItemAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\queries\\getitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|solutionrelative:item.application\\queries\\getitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|solutionrelative:item.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|solutionrelative:item.infrastructure\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.infrastructure\\itemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B8709D-1DF1-4599-AB23-A22B2709B533}|Item.Infrastructure\\Item.Infrastructure.csproj|solutionrelative:item.infrastructure\\itemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +31,16 @@
       "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\models\\itemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\queries\\getitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|solutionrelative:item.application\\queries\\getitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4BAC65E6-3056-4E12-8DC1-FA15877C438A}|Item.Domain\\Item.Domain.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.domain\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BAC65E6-3056-4E12-8DC1-FA15877C438A}|Item.Domain\\Item.Domain.csproj|solutionrelative:item.domain\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\queries\\getitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|solutionrelative:item.application\\queries\\getitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|c:\\_projects\\itemcatalog\\itemapi\\itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAE825-E12C-4D5A-AA8B-17EFA357586D}|ItemAPI\\Item.API.csproj|solutionrelative:itemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41E4EE3F-9B50-49C9-A36C-6BF3C1E14450}|Item.Application\\Item.Application.csproj|c:\\_projects\\itemcatalog\\itemapi\\item.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "ItemAPI\\Controllers\\ItemController.cs",
@@ -69,6 +85,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Item.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Item.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T02:11:10.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemDbContext.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\ItemDbContext.cs",
+              "RelativeDocumentMoniker": "Item.Infrastructure\\ItemDbContext.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\ItemDbContext.cs",
+              "RelativeToolTip": "Item.Infrastructure\\ItemDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T02:05:47.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\Repositories\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "Item.Infrastructure\\Repositories\\ItemRepository.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Infrastructure\\Repositories\\ItemRepository.cs",
+              "RelativeToolTip": "Item.Infrastructure\\Repositories\\ItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T02:02:09.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetItemsQueryHandler.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Queries\\GetItemsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Item.Application\\Queries\\GetItemsQueryHandler.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Queries\\GetItemsQueryHandler.cs",
+              "RelativeToolTip": "Item.Application\\Queries\\GetItemsQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T01:55:04.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Program.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
+              "RelativeToolTip": "ItemAPI\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:50:32.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Domain\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Item.Domain\\Models\\Item.cs",
@@ -81,13 +162,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "GetItemsQuery.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Queries\\GetItemsQuery.cs",
               "RelativeDocumentMoniker": "Item.Application\\Queries\\GetItemsQuery.cs",
               "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\Queries\\GetItemsQuery.cs",
               "RelativeToolTip": "Item.Application\\Queries\\GetItemsQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T01:44:49.697Z",
               "EditorCaption": ""
@@ -99,6 +180,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ItemContext.cs",
+              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\ItemContext.cs",
+              "RelativeDocumentMoniker": "ItemAPI\\Models\\ItemContext.cs",
+              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\ItemContext.cs",
+              "RelativeToolTip": "ItemAPI\\Models\\ItemContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:41:19.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\Item.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Item.Application\\DependencyInjection.cs",
@@ -111,20 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ItemAPI\\Program.cs",
-              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Program.cs",
-              "RelativeToolTip": "ItemAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:50:32.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "test.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\test.cs",
               "RelativeDocumentMoniker": "ItemAPI\\Models\\test.cs",
@@ -137,20 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ItemContext.cs",
-              "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\ItemContext.cs",
-              "RelativeDocumentMoniker": "ItemAPI\\Models\\ItemContext.cs",
-              "ToolTip": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Models\\ItemContext.cs",
-              "RelativeToolTip": "ItemAPI\\Models\\ItemContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:41:19.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "20240608142755_First-Migration.cs",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Migrations\\20240608142755_First-Migration.cs",
               "RelativeDocumentMoniker": "ItemAPI\\Migrations\\20240608142755_First-Migration.cs",
@@ -163,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ItemAPI\\appsettings.json",
@@ -176,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Item.API.csproj",
               "DocumentMoniker": "C:\\_Projects\\ItemCatalog\\ItemAPI\\ItemAPI\\Item.API.csproj",
               "RelativeDocumentMoniker": "ItemAPI\\Item.API.csproj",

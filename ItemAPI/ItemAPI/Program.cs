@@ -1,6 +1,7 @@
 using ItemAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Item.Application;
+using Item.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,11 +12,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ItemContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))
-);
+//builder.Services.AddDbContext<ItemContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))
+//);
 
+var connectionString = builder.Configuration.GetConnectionString("DevConnection");
 builder.Services.AddItemApplicationMediatR();
+builder.Services.AddPersistence(connectionString);
 
 var app = builder.Build();
 

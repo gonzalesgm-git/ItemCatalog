@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Item.Application.Queries
 {
-    public class GetItemsQueryHandler : IRequestHandler<GetItemsQuery, List<Item.Domain.Models.Item>>
+    public class GetItemsQueryHandler : IRequestHandler<GetItemsQuery, List<Domain.Models.Item>>
     {
         public Task<List<Domain.Models.Item>> Handle(GetItemsQuery request, CancellationToken cancellationToken)
         {
