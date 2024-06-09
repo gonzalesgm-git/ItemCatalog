@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace ItemAPI.Migrations
+namespace Item.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstMigration : Migration
+    public partial class RunMigrationInInfrastructure : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

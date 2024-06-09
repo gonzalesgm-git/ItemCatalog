@@ -18,10 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Item.Application\Item.Application.csproj" />
     <ProjectReference Include="..\Item.Domain\Item.Domain.csproj" />
     <ProjectReference Include="..\Item.Infrastructure\Item.Infrastructure.csproj" />
